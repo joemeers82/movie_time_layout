@@ -1,0 +1,10 @@
+.footer {
+	margin-top:auto;
+	background:$watermelon;
+	border-top:solid $coral;
+	&__inner{
+		max-width:1068px;
+		margin:0 auto;
+
+	}
+}

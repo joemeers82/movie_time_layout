@@ -1,0 +1,30 @@
+html, body {
+	height:100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background:$flashwhite;
+
+	>*{
+		padding:0 20px;
+	}
+}
+
+img {
+	max-width:100%;
+}
+
+.container{
+	display:flex;
+	max-width:1068px;
+	margin:0 auto;
+	height:100%;
+	padding:0 20px;
+}

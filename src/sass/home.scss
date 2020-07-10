@@ -1,0 +1,115 @@
+.home{
+
+	>*{
+		margin:20px 0 0 20px;
+	}
+
+	&__row{
+		display: flex;
+		align-items: center;
+	}
+	
+
+	&__item {
+		display: flex;
+		margin-right:20px;
+		
+		position:relative;
+	}
+	
+}
+
+.movies{
+
+	.movie{
+		box-shadow:2px 2px 2px 2px lightgrey;
+
+		&__add_time{
+			border-radius:50%;
+			border:solid $chill;	
+			height:20px;
+			width:20px;
+			position: absolute;
+			right:10px;
+			top:10px;
+			color:$greek;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&__remove{
+
+		}
+
+		&__arrow{
+			border:solid 2px;
+			border-radius:50%;
+			height:35px;
+			width:35px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position:absolute;
+			background-color:white;
+			z-index:999;
+		}
+	
+		&__watching {
+			position:absolute;
+			bottom:0px;
+			width:auto;
+			background-color:rgba($chill,.7);
+			color:white;
+			padding:10px 5px;
+			text-align: center;
+
+		}
+
+	}
+}
+
+.messages {
+	align-items:baseline;
+	.message{
+		flex-direction: column;
+		max-width: 100%;
+	    padding:10px 0;
+	    box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	    border: 1px solid rgba(0,0,0,.25);
+	    background-color: rgba($highblue,.5);
+		
+		>*{
+			padding:5px 0;
+		}
+		
+		>*:not(:first-child){
+			border-bottom:solid thin;
+			width:95%;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+		&__user_said{
+			border-bottom:0px!important;
+		}
+		
+		&__title{
+			margin-top:15px;
+		}
+
+		.tack {
+			width:20px;
+			height:10px;
+			border-radius:50%;
+			background-color:$desire;
+			position:absolute;
+			top:2px;
+			left:44%;
+
+
+		}
+		
+		
+	}
+}
